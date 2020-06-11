@@ -37,6 +37,9 @@ export default {
     '@nuxtjs/axios', // enables Nuxt Axios module
     '@nuxtjs/auth', // enables Nuxt Auth module
   ],
+  axios: {
+    proxy: true
+  },
   auth: {
    strategies: {
      local: {
