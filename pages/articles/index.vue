@@ -31,7 +31,7 @@
 <script>
 export default {
   async asyncData(context){
-    const {data} = await context.$axios.get('/api/articles')
+    const {data} = await context.$axios.get('api/articles')
     return {
       articles : data
     }
